@@ -1,7 +1,7 @@
 const haversine = require('haversine');
 
 const featureWeight = {
-    distance: 6,
+    distance: 2,
     speed: 9,
     power: 0,
     intelligent: 0
