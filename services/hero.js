@@ -44,29 +44,6 @@ const hero = {
                         console.log(matches)
                         console.log(matchedHero)
                         return matches;
-                        
-                        /*let matchedHero = [];
-                        for (let action in actionHeroMap) {
-                            let hero = '';
-                            let maxOverall = 0;
-
-                            _.each(actionHeroMap[action], map => {
-                                if (map.overall > maxOverall && !_.includes(matchedHero, map.hero)) {
-                                    maxOverall = map.overall;
-                                    hero = map.hero;
-
-                                }
-
-                            });
-
-                            if(hero != '' && !_.includes(matchedHero, hero)){
-                                matches.push({ action: action, hero: hero });
-                                matchedHero.push(hero);
-                            }
-                            
-                        }
-
-                        return matches;*/
                     });
 
             });
