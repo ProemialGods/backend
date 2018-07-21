@@ -3,8 +3,8 @@ const haversine = require('haversine');
 const featureWeight = {
     distance: 6,
     speed: 9,
-    power: 3,
-    intelligent: 3
+    power: 0,
+    intelligent: 0
 }
 
 const NORMALIZATION_RANGE = 100;
