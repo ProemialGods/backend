@@ -41,8 +41,7 @@ const hero = {
                             }
                             
                         })
-                        console.log(matches)
-                        console.log(matchedHero)
+                        
                         return matches;
                     });
 
